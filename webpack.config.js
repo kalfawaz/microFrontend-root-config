@@ -20,6 +20,7 @@ module.exports = (webpackConfigEnv, argv) => {
         template: "src/index.ejs",
         templateParameters: {
           isLocal: webpackConfigEnv && webpackConfigEnv.isLocal,
+          isStage: webpackConfigEnv && webpackConfigEnv.isStage,
           orgName,
         },
       }),

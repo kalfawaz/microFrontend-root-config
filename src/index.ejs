@@ -30,8 +30,10 @@
 
     <script src="https://cdn.jsdelivr.net/npm/zone.js@0.11.3/dist/zone.min.js"></script>
 
-  <% if (isLocal) { %>
+  <% if (isLocal || isStage) { %>
     <script type="systemjs-importmap" src="/import-map-local.json"></script>
+    <script type="systemjs-importmap" src="/import-map-stage.json"></script>
+
   <% } %>
   <!-- <script src="https://cdn.jsdelivr.net/npm/zone.js@0.11.3/dist/zone.min.js"></script> -->
 
