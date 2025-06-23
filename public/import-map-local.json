@@ -1,0 +1,11 @@
+{
+  "imports": {
+    "single-spa": "https://cdn.jsdelivr.net/npm/single-spa@5.9.0/lib/system/single-spa.min.js",
+    "react": "https://cdn.jsdelivr.net/npm/react@18.2.0/umd/react.production.min.js",
+    "react-dom": "https://cdn.jsdelivr.net/npm/react-dom@18.2.0/umd/react-dom.production.min.js",
+    "@my-app/root-config": "//localhost:9000/my-app-root-config.js",
+    "@my-app/react-app": "//localhost:3000/my-app-react-app.js",
+    "@my-app/angular-app": "//localhost:4200/main.js",
+    "@my-app/another-react-app": "//localhost:8080/my-app-another-react-app.js"
+  }
+}
