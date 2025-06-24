@@ -3,9 +3,9 @@
     "single-spa": "https://cdn.jsdelivr.net/npm/single-spa@5.9.0/lib/system/single-spa.min.js",
     "react": "https://cdn.jsdelivr.net/npm/react@18.2.0/umd/react.production.min.js",
     "react-dom": "https://cdn.jsdelivr.net/npm/react-dom@18.2.0/umd/react-dom.production.min.js",
-    "@my-app/root-config": "https://micro-frontend-root-config.vercel.app/main.js",
-    "@my-app/react-app": "https://micro-frontend-react-header.vercel.app/main.js",
+    "@my-app/root-config": "https://micro-frontend-root-config.vercel.app/my-app-root-config.js",
+    "@my-app/react-app": "https://micro-frontend-react-header.vercel.app/my-app-react-app.js",
     "@my-app/angular-app": "https://micro-frontend-angular-app.vercel.app/main.js",
-    "@my-app/another-react-app": "https://micro-frontend-react-app-oar5.vercel.app/main.js"
+    "@my-app/another-react-app": "https://micro-frontend-react-app.vercel.app/my-app-another-react-app.js"
   }
 }
