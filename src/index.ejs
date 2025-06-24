@@ -21,6 +21,13 @@
       }
     }
   </script>
+  <script type="systemjs-importmap">
+    {
+      "imports": {
+        "@my-app/root-config": "/my-app-root-config.js"
+      }
+    }
+  </script>
   <link rel="preload" href="https://cdn.jsdelivr.net/npm/single-spa@5.9.0/lib/system/single-spa.min.js" as="script">
 <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
 <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
@@ -35,8 +42,6 @@
     <script type="systemjs-importmap" src="/import-map-stage.json"></script>
     
   <% } %>
-    <script type="systemjs-importmap" src="/import-map-stage.json"></script>
-
   <!-- <script src="https://cdn.jsdelivr.net/npm/zone.js@0.11.3/dist/zone.min.js"></script> -->
 
   <script src="https://cdn.jsdelivr.net/npm/import-map-overrides@2.2.0/dist/import-map-overrides.js"></script>
